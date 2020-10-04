@@ -1,0 +1,5 @@
+- Create express JS application having name exec04-express
+- add the express framework to package.json
+- create routes to as follow 
+/hello return "Hello Express JS"
+/user return  { "firstname":"Pritesh", "lastname": "Patel" }
