@@ -4,6 +4,10 @@ var dateFormat = require('dateformat');
 //------------
 var books = require("./Books")
 var computers = require("./Computers")
+var education = require("./Education")
+var health = require("./Health")
+
+
 
 const app = express();
 const router = express.Router();
@@ -48,6 +52,10 @@ let booksM = (req, res, next) => {
 //app.use("/books", booksM);
 app.use("/books", booksM, books)
 app.use("/books/computer", computers)
+app.use("/books/education", education)
+app.use("/books/health", health)
+
+
 
 /*
   /books/education/game

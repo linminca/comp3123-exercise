@@ -3,7 +3,7 @@ const fs = require("fs")
 const path = require('path'); 
 
 
-__dirname = "Logss";
+__dirname = "Logs";
 
 if (fs.existsSync(__dirname)) {
     // Do something
